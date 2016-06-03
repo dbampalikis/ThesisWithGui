@@ -1,0 +1,29 @@
+<element name="patientData" xmlns="http://relaxng.org/ns/structure/1.0"
+datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+	<element name = "gender">male</element>
+	<element name = "asdf11">
+		<data type = "float">
+			<param name = "minInclusive">1.0</param>
+			<param name = "maxInclusive">2.0</param>
+		</data>
+	</element>
+	<element name = "asdfr">
+		<data type = "float">
+			<param name = "minInclusive">2.0</param>
+			<param name = "maxInclusive">3.0</param>
+		</data>
+	</element>
+	<element name = "af">
+		<data type = "float">
+			<param name = "minInclusive">45.0</param>
+			<param name = "maxInclusive">55.0</param>
+		</data>
+	</element>
+	<element name = "wer">
+		<data type = "float">
+			<param name = "minInclusive">56.0</param>
+			<param name = "maxInclusive">67.0</param>
+		</data>
+	</element>
+</element>
+

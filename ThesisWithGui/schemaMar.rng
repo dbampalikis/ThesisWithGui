@@ -1,0 +1,16 @@
+<element name="patientData" xmlns="http://relaxng.org/ns/structure/1.0"
+datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+	<element name = "adsf">
+		<data type = "float">
+			<param name = "minInclusive">10.0</param>
+			<param name = "maxInclusive">20.0</param>
+		</data>
+	</element>
+	<element name = "dfhgfg">
+		<data type = "float">
+			<param name = "minInclusive">95.0</param>
+			<param name = "maxInclusive">210.0</param>
+		</data>
+	</element>
+</element>
+
