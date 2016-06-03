@@ -1,0 +1,109 @@
+<element name="patientData" xmlns="http://relaxng.org/ns/structure/1.0"
+ datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+	<zeroOrMore>
+		<element name="status">
+			<value>healthy</value>
+		</element>
+		<element name = "abnormalProtein">
+			<data type = "float">
+				<param name = "minInclusive">10</param>
+				<param name = "maxInclusive">50</param>
+			</data>
+		</element>
+		<element name = "acumentin">
+			<data type = "float">
+				<param name = "minInclusive">15</param>
+				<param name = "maxInclusive">25</param>
+			</data>
+		</element>
+		<element name = "adiponectin">
+			<data type = "float">
+				<param name = "minInclusive">20</param>
+				<param name = "maxInclusive">30</param>
+			</data>
+		</element>
+		<element name="alphaActinin">
+			<data type="float">
+				<param name="minInclusive">25</param>
+				<param name="maxInclusive">35</param>
+			</data>
+		</element>
+		<element name="alphaKeratin">
+			<data type="float">
+				<param name="minInclusive">30</param>
+				<param name="maxInclusive">40</param>
+			</data>
+		</element>
+		<element name="alphaSynuclein">
+			<data type="float">
+				<param name="minInclusive">60</param>
+				<param name="maxInclusive">70</param>
+			</data>
+		</element>
+		<element name="angiotensinI">
+			<data type="float">
+				<param name="minInclusive">80</param>
+				<param name="maxInclusive">90</param>
+			</data>
+		</element>
+		<element name="ankyrin">
+			<data type="float">
+				<param name="minInclusive">100</param>
+				<param name="maxInclusive">110</param>
+			</data>
+		</element>
+	</zeroOrMore>
+	<zeroOrMore>
+		<element name="status">
+			<value>sick</value>
+		</element>
+		<element name = "abnormalProtein">
+			<data type = "float">
+				<param name = "minInclusive">60</param>
+				<param name = "maxInclusive">70</param>
+			</data>
+		</element>
+		<element name = "acumentin">
+			<data type = "float">
+				<param name = "minInclusive">60</param>
+				<param name = "maxInclusive">70</param>
+			</data>
+		</element>
+		<element name = "adiponectin">
+			<data type = "float">
+				<param name = "minInclusive">60</param>
+				<param name = "maxInclusive">70</param>
+			</data>
+		</element>
+		<element name="alphaActinin">
+			<data type="float">
+				<param name="minInclusive">60</param>
+				<param name="maxInclusive">70</param>
+			</data>
+		</element>
+		<element name="alphaKeratin">
+			<data type="float">
+				<param name="minInclusive">60</param>
+				<param name="maxInclusive">70</param>
+			</data>
+		</element>
+		<element name="alphaSynuclein">
+			<data type="float">
+				<param name="minInclusive">60</param>
+				<param name="maxInclusive">70</param>
+			</data>
+		</element>
+		<element name="angiotensinI">
+			<data type="float">
+				<param name="minInclusive">60</param>
+				<param name="maxInclusive">70</param>
+			</data>
+		</element>
+		<element name="ankyrin">
+			<data type="float">
+				<param name="minInclusive">60</param>
+				<param name="maxInclusive">70</param>
+			</data>
+		</element>
+	</zeroOrMore>
+</element>

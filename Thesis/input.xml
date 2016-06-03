@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<patientData>
+	<status>healthy</status>
+	<abnormalProtein> 15 </abnormalProtein>
+	<acumentin> 20 </acumentin>
+	<adiponectin>26</adiponectin>
+	<alphaActinin>30</alphaActinin>
+	<alphaKeratin>35</alphaKeratin>
+	<alphaSynuclein>65</alphaSynuclein>
+	<angiotensinI>85</angiotensinI>
+	<ankyrin>105</ankyrin>
+</patientData>
